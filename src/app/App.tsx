@@ -23,7 +23,7 @@ const COMPONENTS: ComponentInfo[] = [
       { key: "TDP", value: "65–253 Вт" },
     ],
     x: 310,
-    y: 160,
+    y: 60,
     width: 140,
     height: 100,
   },
@@ -111,7 +111,7 @@ const COMPONENTS: ComponentInfo[] = [
       { key: "Слоты M.2", value: "2–6 шт." },
     ],
     x: 240,
-    y: 200,
+    y: 220,
     width: 280,
     height: 200,
   },
@@ -155,7 +155,7 @@ const COMPONENTS: ComponentInfo[] = [
       { key: "КПД", value: "87–94%" },
     ],
     x: 310,
-    y: 430,
+    y: 460,
     width: 140,
     height: 80,
   },
@@ -177,7 +177,7 @@ const COMPONENTS: ComponentInfo[] = [
       { key: "Беспроводная связь", value: "Wi-Fi 7 / BT 5.4" },
     ],
     x: 80,
-    y: 390,
+    y: 420,
     width: 120,
     height: 80,
   },
@@ -197,7 +197,7 @@ const CONN_DEFS = [
 ];
 
 const CANVAS_W = 780;
-const CANVAS_H = 560;
+const CANVAS_H = 600;
 
 export default function App() {
   const [activeId, setActiveId] = useState<string | null>(null);
